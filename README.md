@@ -19,6 +19,7 @@
 </table>
 
 # Tugas :
+
 ```
 Buatkanlah :
 
@@ -55,6 +56,7 @@ Launcher Splash Logo Pertama, yaitu membuat Launcher Splash Logo atau menampilka
 Untuk menambahkan file gambar seperti untuk SplashScreen, Background di setiap project kita bisa klik bagian Resource Manager lalu kita klik tanda +. Setelah itu kita pilih dan klik Import Drawables, setelah itu kita pilih dan klik file gambar yang sudah kita siapkan lalu klik OK. Maka gambar akan tersedia di res pada drawable.
 
 * Lalu buka backgroundlauncher.xml dan masukkan code ini :
+  
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
@@ -66,7 +68,9 @@ Untuk menambahkan file gambar seperti untuk SplashScreen, Background di setiap p
     </item>
 </layer-list>
 ```
+
 * Lalu, buka themes.xml yang letaknya ada di res/values/themes, dan tambahkan code ini didalam resourcesnya ;
+  
   ```
   <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
@@ -75,4 +79,7 @@ Untuk menambahkan file gambar seperti untuk SplashScreen, Background di setiap p
         <item name="android:statusBarColor">?attr/colorOnPrimary</item>
     </style>
 </resources>
-```
+
+
+* Selanjutnya kita buat java class nya agar SplashScreen bisa berjalan, lalu pada SplashScreen.java kita masukkan code dibawah ini ;
+
