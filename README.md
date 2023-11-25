@@ -254,7 +254,7 @@ Maka langsung saja kita buka `activity_main.xml`, dan buat code seperti berikut 
 ```
 - Maka tampilannya akan seperti ini :
   
-![WhatsApp Image 2023-11-19 at 19 11 46_b9d46af7](https://github.com/syifaaurellia/IntentProject/assets/115867244/1a9966db-3b54-40f0-a574-6140caeff726)
+![WhatsApp Image 2023-11-25 at 14 14 42_cf7b383c](https://github.com/aasnovita114/Project_intent/assets/116045324/cc74bcb3-6a98-4cfd-83f1-a2feef59a70a)
 
 - Setelah itu kita buka `MainActivity.java` untuk menambahkan code intent untuk masing-masing tombol :
 ```
@@ -1112,8 +1112,7 @@ findViewById(R.id.btnSetAlarm).setOnClickListener(new View.OnClickListener() {
 - Berikut adalah hasil running dari aplikasi yang telah saya buat :
 
 
-https://github.com/syifaaurellia/IntentProject/assets/115867244/0343880b-e5cb-408e-87b9-0498ab6f677c
 
 
-# Sekian, Terima kasih
+
 
