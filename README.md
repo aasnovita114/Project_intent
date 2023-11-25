@@ -258,7 +258,7 @@ Maka langsung saja kita buka `activity_main.xml`, dan buat code seperti berikut 
 
 - Setelah itu kita buka `MainActivity.java` untuk menambahkan code intent untuk masing-masing tombol :
 ```
-package com.tgs9;
+package com.aasapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -490,7 +490,7 @@ Film dokumenter buatan Netflix ini menyoroti rangkaian persidangan yang saat itu
 
 > `HelloActivity.java`
 ```
-package com.tgs9;
+package com.aasapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -604,7 +604,7 @@ public class HelloActivity extends AppCompatActivity{
 
 > `CountActivity.java`
 ```
-package com.tgs9;
+package com.aasapp;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -790,7 +790,7 @@ public class CountActivity extends AppCompatActivity {
 
 > `SianidaActivity.java`
 ```
-package com.tgs9;
+package com.aasapp;
 
 import android.os.Bundle;
 
@@ -955,7 +955,7 @@ public class SianidaActivity extends AppCompatActivity {
 
 > `TwoActivity.java`
 ```
-package com.tgs9;
+package com.aasapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -1017,7 +1017,7 @@ public class TwoActivity extends AppCompatActivity {
 
 > `Two2Activity.java`
 ```
-package com.tgs9;
+package com.aasapp;
 
 import android.content.Intent;
 import android.os.Bundle;
